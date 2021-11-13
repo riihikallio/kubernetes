@@ -1,2 +1,3 @@
-# kubernetes
-DevOps with Kubernetes
+# Kubernetes
+
+DevOps with Kubernetes repository
