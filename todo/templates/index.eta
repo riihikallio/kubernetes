@@ -1,0 +1,5 @@
+<% layout('./layout') %>
+
+<div id="content">
+  <h1>ToDo App</h1>
+</div>

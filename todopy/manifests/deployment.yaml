@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Todo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Todo
+  template:
+    metadata:
+      labels:
+        app: Todo
+    spec:
+      containers:
+        - name: Todo
+          image: riihikallio/todopy:1.05
